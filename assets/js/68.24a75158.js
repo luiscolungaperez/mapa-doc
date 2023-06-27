@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[68],{436:function(a,t,n){"use strict";n.r(t);var s=n(0),o=Object(s.a)({},(function(){var a=this._self._c;return a("div",{staticClass:"another-map"},[a("dai-mapa",{attrs:{zoom:8,centro:[-99.1332,19.4326]}},[a("dai-capa-xyz-osm")],1)],1)}),[],!1,null,null,null);t.default=o.exports}}]);
