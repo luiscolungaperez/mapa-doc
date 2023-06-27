@@ -21,7 +21,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
-  base: "/mapa-doc/",
+  base: "/dai-maps/",
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
@@ -128,5 +128,10 @@ module.exports = {
           });
         });
       })
+  },
+  async generated (pagePaths) {
+    if (pagePaths.length > 0) {
+        process.exit(0)
+    }
   }
 }
